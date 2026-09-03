@@ -1,0 +1,426 @@
+/* Reset - remove default browser spacing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Body - main page font, background, and text color */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+
+/* Header - top area of the website */
+
+.header {
+    background-color: darkslategray;
+    border-bottom: 1px solid gray;
+}
+
+
+/* Navbar - logo and navigation links */
+
+.navbar {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo - your name in the navbar */
+
+.logo {
+    color: turquoise;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navigation links - Home, About, Skills, etc. */
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: turquoise;
+}
+
+
+/* Home section - profile image and introduction */
+
+.hero {
+    padding: 60px 20px;
+}
+
+
+/* Home content - places image and text side by side */
+
+.hero-content {
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    gap: 30px;
+}
+
+
+/* Home text - keeps the introduction content centered */
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Profile image - controls your photo width */
+
+.profile-img {
+    width: 280px;
+    height: auto;
+}
+
+
+/* Small welcome text above your name */
+
+.hero-small {
+    color: turquoise;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+/* Main heading - Hi, I'm Raj Jain */
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+
+/* Your name inside the main heading */
+
+.hero h1 span {
+    color: turquoise;
+}
+
+
+/* Student title below your name */
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+/* Description below your title */
+
+.hero-description {
+    color: lightgray;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* Buttons - View Projects and Contact Me */
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+
+    background-color: turquoise;
+    color: black;
+
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-weight: bold;
+    margin: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+/* Contact button - transparent button style */
+
+.btn-outline {
+    background-color: transparent;
+    color: turquoise;
+    border: 1px solid turquoise;
+}
+
+
+/* Common section - About, Skills, Projects, and Contact */
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 45px 20px;
+}
+
+
+/* Section heading - small text and main heading */
+
+.section-heading {
+    margin-bottom: 25px;
+}
+
+.section-heading p {
+    color: turquoise;
+    font-size: 13px;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+}
+
+
+/* About section - personal information */
+
+.about-card {
+    background-color: darkslategray;
+    padding: 25px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    max-width: 800px;
+}
+
+.about-card p {
+    color: lightgray;
+    margin-bottom: 15px;
+}
+
+
+/* Skills section - list of technical skills */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* Individual skill - HTML, CSS, C++, Python, etc. */
+
+.skill {
+    background-color: darkslategray;
+    border: 1px solid gray;
+
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+
+.skill:hover {
+    color: turquoise;
+    border-color: turquoise;
+}
+
+
+/* Projects section - project cards */
+
+.projects-container {
+    display: flex;
+}
+
+
+/* Individual project card */
+
+.project-card {
+    background-color: darkslategray;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    padding: 25px;
+    max-width: 500px;
+}
+
+
+/* Project number - 01, 02, etc. */
+
+.project-number {
+    color: turquoise;
+}
+
+
+/* Project title */
+
+.project-card h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+
+/* Project description */
+
+.project-card p {
+    color: lightgray;
+}
+
+
+/* Technologies used in the project */
+
+.project-tech {
+    margin: 15px 0;
+}
+
+.project-tech span {
+    color: turquoise;
+    margin-right: 10px;
+}
+
+
+/* Project link - View Project */
+
+.project-link {
+    color: turquoise;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: white;
+}
+
+
+/* Contact section - email and social links */
+
+.contact-section {
+    padding-bottom: 60px;
+}
+
+
+/* Contact card - contains contact information */
+
+.contact-card {
+    background-color: darkslategray;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    padding: 25px;
+    max-width: 800px;
+}
+
+.contact-card p {
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+
+/* Contact links - email, GitHub, LinkedIn */
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-links a {
+    color: turquoise;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: white;
+}
+
+
+/* Footer - bottom of the website */
+
+.footer {
+    text-align: center;
+    padding: 25px;
+
+    border-top: 1px solid gray;
+    color: lightgray;
+}
+
+
+/* Mobile - changes when screen is smaller than 700px */
+
+@media (max-width: 700px) {
+
+    /* Mobile navbar - logo and links move vertically */
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Mobile navigation - links can move to the next line */
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Mobile home section - less spacing */
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    /* Mobile home content - image goes above the text */
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    /* Smaller heading on mobile */
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    /* Smaller profile image on mobile */
+
+    .profile-img {
+        width: 160px;
+        height: auto;
+         margin-top: 25px;
+    }
+
+    /* Less spacing in sections on mobile */
+
+    .section {
+        padding: 35px 20px;
+    }
+}

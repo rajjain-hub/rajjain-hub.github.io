@@ -24,9 +24,6 @@ body {
 /* Header - top area of the website */
 
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
     background-color: darkslategray;
     border-bottom: 1px solid gray;
 }

@@ -144,6 +144,7 @@ body {
 
 .hero-description {
     color: lightgray;
+    max-width: 450px;
 }
 
 

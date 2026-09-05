@@ -96,6 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: 1;
 }
 
 
@@ -143,9 +144,6 @@ body {
 
 .hero-description {
     color: lightgray;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 

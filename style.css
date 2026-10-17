@@ -120,7 +120,7 @@ body {
 ================================ */
 
 .hero {
-    padding: 60px 20px;
+    padding: 30px 20px;
 }
 
 .hero-content {
@@ -193,7 +193,7 @@ body {
 
 .hero-description {
     color: #52677F;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.8;
     max-width: 450px;
 }
